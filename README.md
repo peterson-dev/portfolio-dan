@@ -4,11 +4,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="./images/undraw_adventure_4hum.png">
-    <img src="./images/airplane.png" alt="Logo" width="80" height="80">
+  <a href="http://www.peterson-dev.com">
+     <h3 align="center">peterson-dev.com</h3>
   </a>
 
-  <h3 align="center">peterson-dev.com</h3>
+ 
 
   <p align="center">
     Personal/Project website hosted on Heroku.
