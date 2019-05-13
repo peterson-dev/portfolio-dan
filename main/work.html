@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>work | peterson dev</title>
+  <link rel="icon" type="image/ico" href="assets/img/favicon-1.png">
+</head>
+
+<header class="main-header js-main-header">
+  <div class="container container--lg">
+    <div class="main-header__layout">
+      <div class="main-header__logo">
+        <a href="index.html">
+            <img width="90" src="assets/img/undraw_adventure_4hum.png" title="Go to homepage">
+          </a>
+      </div>
+      <button class="btn btn--subtle main-header__nav-trigger js-main-header__nav-trigger" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-header-nav">
+        <i class="main-header__nav-trigger-icon" aria-hidden="true"></i>
+      </button>
+
+      <nav class="js-nav-hilight main-header__nav js-main-header__nav" id="main-header-nav" aria-labelledby="main-header-nav-label" role="navigation">
+        <center><ul class="main-header__nav-list">
+          <li class="main-header__nav-item"><a href="work.html" class="main-header__nav-link nav-font">Work</a></li>
+          <li class="main-header__nav-item"><a href="bio.html" class="main-header__nav-link nav-font">Bio</a></li>
+          <li class="main-header__nav-item"><a href="contact.html" class="main-header__nav-link nav-font">Contact</a></li>
+        </ul></center>
+      </nav>
+    </div> <!-- main-header__layout -->
+  </div>
+</header>
+
+<body style="background: var(--color-contrast-lower);">
+  <section class="hero hero--diagonal margin-top--sm" style="padding-bottom: 50px;">
+    <div class="container container--adaptive-xl">
+      <div class="hero__content" style="max-width: var(--container-width-lg); margin: auto;">
+        <div class="text-component">
+            <h1 style="letter-spacing: .1em;">Latest Work.</h1>
+            <div class="partial-border"></div>
+        </div>
+        <section class="features margin-top--lg">
+          <div class="features__grid container container--adaptive">
+
+            <div class="features__item project-pic">
+              <a href="http://www.polimetrics.io/"><img src="assets/img/logo.png" alt="Image description"></a>
+              <div class="text-component">
+                <h4 style="letter-spacing: .1em;">Polimetrics</h4>
+                <a href="https://github.com/peterson-dev/polimetrics" class="features-btn"><i class="fab fa-github"></i> View Code</a>
+                <a href="http://www.polimetrics.io/" class="features-btn"><i class="fas fa-eye"></i> Live Version</a>
+              </div>
+            </div> <!-- features__item -->
+
+            <div class="features__item project-pic">
+              <a href="https://greedy-pathfinder.herokuapp.com/"><img src="assets/img/pathfinder.png" alt="Image description"></a>
+              <div class="text-component">
+                <h4 style="letter-spacing: .1em;">Pathfinder</h4>
+                <a href="https://github.com/peterson-dev/pathfinder-django" class="features-btn"><i class="fab fa-github"></i> View Code</a>
+                <a href="https://greedy-pathfinder.herokuapp.com/" class="features-btn"><i class="fas fa-eye"></i> Live Version</a>
+              </div>
+            </div> <!-- features__item -->
+
+            <div class="features__item project-pic">
+              <a href="https://thirty-second-dance-party.herokuapp.com/"><img src="assets/img/earth-wind-fire.png" alt="Image description"></a>
+              <div class="text-component">
+                <h4 style="letter-spacing: .1em;">iSearch</h4>
+                <a href="https://github.com/peterson-dev/itunes-search-api" class="features-btn"><i class="fab fa-github"></i> View Code</a>
+                <a href="https://thirty-second-dance-party.herokuapp.com/" class="features-btn"><i class="fas fa-eye"></i> Live Version</a>
+              </div>
+            </div> <!-- features__item -->
+
+            <div class="features__item project-pic">
+              <a href="https://kode-kangaroo.herokuapp.com/"><img src="assets/img/undraw_startman1_h7l9.png" alt="Image description"></a>
+              <div class="text-component">
+                <h4 style="letter-spacing: .1em;">KodeKangaroo</h4>
+                <a href="https://github.com/peterson-dev/kode-kangaroo" class="features-btn"><i class="fab fa-github"></i> View Code</a>
+                <a href="https://kode-kangaroo.herokuapp.com/" class="features-btn"><i class="fas fa-eye"></i> Live Version</a>
+              </div>
+            </div>
+             <!-- features__item -->
+          </div> <!-- features__grid -->
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+      <div class="container container--lg">
+        <div class="main-footer__colophon">
+          <div class="main-footer__colophon-nav">
+            <span>Built with <img width="15" src="assets/img/favicon-1.png"> by peterson-dev &copy; 2019</span>
+            <a href="https://github.com/peterson-dev/portfolio" style="font-size:11px;">View source</a>
+          </div>
+    
+          <div class="main-footer__socials">
+            <a href="https://www.linkedin.com/in/daniel-peterson-a66330181/"target="_blank">
+              <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="contact-me icon icon--md" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Linkedin</title><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+            </a>
+
+            <a href="https://github.com/peterson-dev"target="_blank">
+              <svg class="contact-me icon icon--md" viewBox="0 0 16 16"><title>Github</title><g><path  d="M8,0.2c-4.4,0-8,3.6-8,8c0,3.5,2.3,6.5,5.5,7.6 C5.9,15.9,6,15.6,6,15.4c0-0.2,0-0.7,0-1.4C3.8,14.5,3.3,13,3.3,13c-0.4-0.9-0.9-1.2-0.9-1.2c-0.7-0.5,0.1-0.5,0.1-0.5 c0.8,0.1,1.2,0.8,1.2,0.8C4.4,13.4,5.6,13,6,12.8c0.1-0.5,0.3-0.9,0.5-1.1c-1.8-0.2-3.6-0.9-3.6-4c0-0.9,0.3-1.6,0.8-2.1 c-0.1-0.2-0.4-1,0.1-2.1c0,0,0.7-0.2,2.2,0.8c0.6-0.2,1.3-0.3,2-0.3c0.7,0,1.4,0.1,2,0.3c1.5-1,2.2-0.8,2.2-0.8 c0.4,1.1,0.2,1.9,0.1,2.1c0.5,0.6,0.8,1.3,0.8,2.1c0,3.1-1.9,3.7-3.7,3.9C9.7,12,10,12.5,10,13.2c0,1.1,0,1.9,0,2.2 c0,0.2,0.1,0.5,0.6,0.4c3.2-1.1,5.5-4.1,5.5-7.6C16,3.8,12.4,0.2,8,0.2z"></path></g></svg>
+            </a>
+          </div>
+        </div>
+      </div> <!-- container -->
+  </footer>
+<script src="assets/js/util.js"></script>
+</body>
+</html>
