@@ -229,6 +229,9 @@ Math.easeInOutQuad = function (t, b, c, d) {
 	return -c/2 * (t*(t-2) - 1) + b;
 };
 
+/*
+    main-header component function
+*/
 (function() {
 	var mainHeader = document.getElementsByClassName('js-main-header')[0];
 	if( mainHeader ) {
